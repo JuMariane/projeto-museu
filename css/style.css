@@ -1,0 +1,193 @@
+*{
+    Margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #d9d9d96b;
+    color:black;
+    line-height: 1.6;
+}
+.container{
+    margin: 0 auto;
+    padding: 0 20px;
+    text-align: center;
+}
+
+header{
+    background: linear-gradient(#5cd8a9, #e6c9bd6b);
+    color: rgb(255, 255, 255);
+    padding: 0 20px;
+    text-align: center;
+    border-bottom: 5px solid rgb(148, 214, 189)
+}
+
+
+header h1{
+    font-size: 2.8 brem;
+    margin-bottom: 10px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+header .slogan{
+    opacity: 0.9;
+    font-style: italic;
+}
+
+nav{
+    background-color: #78e4ba86;
+    box-shadow: 0 2px 10px rgba(rgb(0, 11, 210), rgb(0, 0, 0), blue, alpha);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 15px 0;
+}
+.menu a{
+    color: #460933;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+}
+
+.menu a:hover{
+    color: #f5ef80;
+    
+
+}
+
+.banner{
+    background-color: #4d3a326b;
+    color: aliceblue;
+    text-align: center;
+    padding: 100px 0;
+    margin-bottom: 30px;
+}
+
+.banner h2{
+    font-size: 1.2rem;
+    margin-bottom: 25px;
+}
+
+.banner p{
+    font-size: 1.2rem;
+    margin-bottom: 25px;
+}
+
+.botao{
+    display: inline-block;
+    background-color: #5cd8a8b7;
+    color: #ffffff;
+    padding: 12px 30px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.1rem;
+    transition: background-color 0.3s, transform 0.2s;
+    box-shadow: 0 4px 6px #f5ef80;
+}
+
+.botao:hover{
+    background-color: #54b498;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 10px #f5ef80;
+}
+
+.sobre h2{
+    color: #ff009d;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    position: relative;
+    display: inline-block;
+
+}
+
+.sobre h2::after{
+    content: '';
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: #56063e;
+    margin: 10px auto 0;
+    border-radius: 2px;
+}
+
+.sobre p{
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 1.1rem;
+    color: #ff009d;
+}
+
+.exposicoes{
+    padding: 60px 0;
+    background-color: #910466;
+}
+
+.exposicoes h2{
+    text-align: center;
+    color: #ff009d;
+    font-size: 2rem;
+    margin-bottom: 40px;
+    position: relative;
+    display: inline-block;
+}
+.exposicoes h2::after{
+    content: '';
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: #56063e;
+    margin: 10px auto 0;
+    border-radius: 2px;
+}
+
+.Cards{
+    background-color: #5eedc280;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px #f5ef80;
+    transition: transform 0.3s, box-shadow 0.3s;
+
+}
+
+.Cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px,ifr));
+    gap:30px;
+}
+
+.Cards:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px #54b498;
+}
+
+.Cards a{
+    display: block;
+    padding: 25px 20px;
+    text-decoration: none;
+    color: inherit;
+    height: 100%; 
+}
+
+.Cards h3{
+    color: #000000;
+    margin-bottom: 10px;
+    font-size: 1.3rem;
+
+}
+
+.Cards p{
+    color: #000000;
+    font-size: 1rem;
+    line-height: 1.4;
+}

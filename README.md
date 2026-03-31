@@ -32,15 +32,6 @@ Para construir esse museu, usei as ferramentas básicas que toda desenvolvedora 
 
 ---
 
-## 🚀 Como visitar?
-
-Você pode conferir o resultado final clicando no link abaixo (via GitHub Pages):
-
-👉 [**Visite o meu Museu aqui!**](https://JuMariane.github.io/projeto-museu/)) 
-*(Substitua pelo seu link real depois!)*
-
----
-
 ## 🌸 Créditos
 
 Desenvolvido por **Julia Mariane** ✨ 

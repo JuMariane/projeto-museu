@@ -36,7 +36,7 @@ Para construir esse museu, usei as ferramentas básicas que toda desenvolvedora 
 
 Você pode conferir o resultado final clicando no link abaixo (via GitHub Pages):
 
-👉 [**Visite o meu Museu aqui!**]([https://jumariane.github.io/projeto-museu/](https://JuMariane.github.io/projeto-museu/)) 
+👉 [**Visite o meu Museu aqui!**](https://JuMariane.github.io/projeto-museu/)) 
 *(Substitua pelo seu link real depois!)*
 
 ---

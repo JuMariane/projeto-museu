@@ -1,23 +1,62 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Exposição - Museu</title>
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
     <header>
         <div class="container">
-            <h1> Museu</h1>
+            <h1>museu da Julia</h1>
         </div>
     </header>
-   
-    <main>
-        <section>
-            <h1>Sessão: cachorro sapeca</h1>
-            <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExajFzems0Ymt0MTY5NTZzZ3VqNXdpYWVyZjlycGhxa2E3OWJzN2JvdCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/vNTIkYpoAUb22FhsVr/giphy.gif" alt=""></h1>
-            <img src="../assets/GIF-Maker-Halloween-GIF-Transparent.gif" width=300>
-        </section>
+
+    <main class="container">
+        <article class="Cards" style="display: block; max-width: 500px; margin: 40px auto;">
+            
+            <img id="imagem-exposicao" src="../assets/Dog desconfiado.gif" style="width: 100%; border-radius: 15px 15px 0 0;">
+            
+            <div class="area-acoes" style="padding: 20px; display: flex; flex-direction: column; gap: 15px; align-items: center;">
+                
+                <h2 id="titulo-obra">Cachorro desconfiado</h2>
+                
+                <button class="botao" onclick="trocarObra()">Trocar Imagem</button>
+
+                <a href="../index.html" class="botao" style="background-color: #460933;">Voltar ao Início</a>
+            </div>
+        </article>
     </main>
+
+    <script>
+        function trocarObra() {
+            const img = document.getElementById('imagem-exposicao');
+            const titulo = document.getElementById('titulo-obra');
+            
+            // Lista de imagens
+            const listaFotos = [
+                "../assets/Dog desconfiado.gif", 
+                "../assets/Dog comendo.gif"
+            ];
+
+            // Lista de títulos que combinam com as imagens acima
+            const listaTitulos = [
+                "Cachorro desconfiado",
+                "Cachorro comendo"
+            ];
+            
+            // Pega o índice atual
+            let atual = listaFotos.indexOf(img.getAttribute('src'));
+            if (atual === -1) atual = 0;
+
+            // Calcula a próxima posição
+            let proxima = (atual + 1) % listaFotos.length;
+            
+            // Altera a imagem e o texto ao mesmo tempo
+            img.src = listaFotos[proxima];
+            titulo.innerText = listaTitulos[proxima];
+        }
+    </script>
 </body>
 </html>

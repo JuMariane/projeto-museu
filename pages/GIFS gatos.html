@@ -1,14 +1,53 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GATO</title>
+    <title>GATO - Museu da Julia</title>
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-    <H1>gatinhos</H1>
-    <h2>Gato trabalhando</h2>
-    <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="100">
+    <header>
+        <div class="container">
+            <h1>museu da Julia</h1>
+            <p class="slogan">Exposição Felina</p>
+        </div>
+    </header>
 
+    <main class="container">
+        <article class="Cards" style="display: block; max-width: 500px; margin: 40px auto;">
+            
+            <img id="gif-gato" src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" style="width: 100%; border-radius: 15px 15px 0 0;">
+
+            <div class="area-acoes" style="padding: 20px; display: flex; flex-direction: column; gap: 15px; align-items: center;">
+                <h2>Gato trabalhando</h2>
+                
+                <button class="botao" onclick="trocarFoto()">Trocar Imagem</button>
+
+                <a href="../index.html" class="botao" style="background-color: #460933; display: flex; align-items: center; gap: 10px;">
+                    Voltar ao Início
+                </a>
+            </div>
+        </article>
+    </main>
+
+    <script>
+        function trocarFoto() {
+            const img = document.getElementById('gif-gato');
+            
+            const lista = [
+                "https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif",
+                "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNXp6N3R6N3R6N3R6N3R6N3R6N3R6N3R6N3R6N3R6N3R6JmVwPXYxX2ludGVybmFsX2dpZl9ieV9pZCZjdD1n/JIX9t2j0ZTN9S/giphy.gif",
+
+            ];
+
+            let atual = lista.indexOf(img.getAttribute('src'));
+            
+            if (atual === -1) atual = 0;
+
+            let proxima = (atual + 1) % lista.length;
+            img.src = lista[proxima];
+        }
+    </script>
 </body>
 </html>

@@ -35,6 +35,6 @@ Para construir esse museu, usei as ferramentas básicas que toda desenvolvedora 
 ## 🌸 Créditos
 
 Desenvolvido por **Julia Mariane** ✨ 
-Estudante de Sistemas, gateira nas horas vagas e futura Engenheira de Computação! 🚀🐱
+Estudante de Sistemas, gateira nas horas vagas ! 🚀🐱
 
 ---

@@ -31,6 +31,10 @@ Para construir esse museu, usei as ferramentas básicas que toda desenvolvedora 
 * ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) - Lógica de troca de imagens e interatividade.
 
 ---
+## 🚀 Como visitar?
+
+👉 [**Visite o meu Museu aqui!**](https://vercel.com/julias-projects-d0769582/projeto-museu/2LpNgruxLD9dU5vSBEudTXtxQoj2
+)
 
 ## 🌸 Créditos
 

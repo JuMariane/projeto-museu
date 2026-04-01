@@ -33,8 +33,7 @@ Para construir esse museu, usei as ferramentas básicas que toda desenvolvedora 
 ---
 ## 🚀 Como visitar?
 
-👉 [**Visite o meu Museu aqui!**](https://vercel.com/julias-projects-d0769582/projeto-museu/2LpNgruxLD9dU5vSBEudTXtxQoj2
-)
+👉 [**Visite o meu Museu aqui!**](https://projeto-museu-git-main-julias-projects-d0769582.vercel.app/)
 
 ## 🌸 Créditos
 
